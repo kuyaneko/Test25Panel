@@ -68,9 +68,9 @@ public class SystemCtrl : MonoBehaviour
 
 	private void Update()
 	{
-		UpdateEscape();
+		//UpdateEscape();
 
-		UpdateScreenshot();
+		//UpdateScreenshot();
 	}
 
 

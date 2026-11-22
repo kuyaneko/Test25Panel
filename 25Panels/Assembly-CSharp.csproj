@@ -52,20 +52,28 @@
     <Analyzer Include="D:\Projects\UnityProjects\Test25Panel\25Panels\Library\PackageCache\com.unity.dt.app-ui@8ac7e730dd5d\Runtime\MVVM\SourceGenerators\netstandard2.0\MVVMSourceGenerators.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Title\TitleMainState.cs" />
+    <Compile Include="Assets\Scripts\Result\ResultSceneCtrl.cs" />
+    <Compile Include="Assets\Scripts\Title\State\TitleInitState.cs" />
+    <Compile Include="Assets\Scripts\Result\State\ResultMainState.cs" />
     <Compile Include="Assets\Scripts\System\SystemCtrl.cs" />
     <Compile Include="Assets\Scripts\Title\TitleSceneCtrl.cs" />
+    <Compile Include="Assets\Scripts\MainGame\State\MainGameInitState.cs" />
+    <Compile Include="Assets\Scripts\MainGame\MainGameSceneCtrl.cs" />
     <Compile Include="Assets\Scripts\System\SceneCtrl.cs" />
     <Compile Include="Assets\Scripts\System\Input\PadCtrl.cs" />
     <Compile Include="Assets\Scripts\System\Base\SingletonMonoBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Title\TitleInitState.cs" />
     <Compile Include="Assets\Scripts\System\Base\StateCtrlBase.cs" />
     <Compile Include="Assets\Scripts\System\Input\InputTextCtrl.cs" />
+    <Compile Include="Assets\Scripts\Title\State\TitleMainState.cs" />
     <Compile Include="Assets\Scripts\System\Base\StateContextBase.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\MainGame\State\MainGameMainState.cs" />
+    <Compile Include="Assets\Scripts\Title\State\TitleEndState.cs" />
+    <Compile Include="Assets\Scripts\Result\State\ResultEndState.cs" />
     <Compile Include="Assets\Scripts\System\Fade\FadeCtrl.cs" />
     <Compile Include="Assets\Scripts\System\Fade\FadeSimple.cs" />
-    <Compile Include="Assets\Scripts\Title\TitleEndState.cs" />
+    <Compile Include="Assets\Scripts\Result\State\ResultInitState.cs" />
+    <Compile Include="Assets\Scripts\MainGame\State\MainGameEndState.cs" />
     <Compile Include="Assets\Scripts\System\Input\JoyStickCtrl.cs" />
     <Compile Include="Assets\Scripts\System\Fade\FadeBase.cs" />
     <Compile Include="Assets\Scripts\System\Base\SceneBase.cs" />
