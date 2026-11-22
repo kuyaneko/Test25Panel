@@ -7,6 +7,7 @@ public partial class ResultSceneCtrl
         public override void OnEnter()
         {
             Debug.Log("ResultEndState.OnEnter");
+            SceneCtrl.instance.LoadScene(SceneCtrl.Scene.TITLE);
         }
 
         public override void OnUpdate()

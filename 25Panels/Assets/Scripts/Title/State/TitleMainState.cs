@@ -8,13 +8,17 @@ public partial class TitleSceneCtrl
         public override void OnEnter()
         {
             Debug.Log("TitleMainState.OnEnter");
-
-            owner.SetState<TitleEndState>();
         }
 
         public override void OnUpdate()
         {
             Debug.Log("TitleMainState.OnUpdate");
+
+            if (UnityEngine.InputSystem.Mouse.current != null &&
+                UnityEngine.InputSystem.Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                owner.SetState<TitleEndState>();
+            }
         }
     }
 }

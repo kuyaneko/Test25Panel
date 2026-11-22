@@ -62,12 +62,14 @@
     <Compile Include="Assets\Scripts\System\SceneCtrl.cs" />
     <Compile Include="Assets\Scripts\System\Input\PadCtrl.cs" />
     <Compile Include="Assets\Scripts\System\Base\SingletonMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\MainGame\Panel\MainGamePanelCtrl.cs" />
     <Compile Include="Assets\Scripts\System\Base\StateCtrlBase.cs" />
     <Compile Include="Assets\Scripts\System\Input\InputTextCtrl.cs" />
     <Compile Include="Assets\Scripts\Title\State\TitleMainState.cs" />
     <Compile Include="Assets\Scripts\System\Base\StateContextBase.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\MainGame\State\MainGameMainState.cs" />
+    <Compile Include="Assets\Scripts\MainGame\Panel\PanelObject.cs" />
     <Compile Include="Assets\Scripts\Title\State\TitleEndState.cs" />
     <Compile Include="Assets\Scripts\Result\State\ResultEndState.cs" />
     <Compile Include="Assets\Scripts\System\Fade\FadeCtrl.cs" />

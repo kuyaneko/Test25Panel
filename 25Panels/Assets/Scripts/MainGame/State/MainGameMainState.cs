@@ -8,13 +8,16 @@ public partial class MainGameSceneCtrl
         public override void OnEnter()
         {
             Debug.Log("MainGameMainState.OnEnter");
-
-            owner.SetState<MainGameEndState>();
         }
 
         public override void OnUpdate()
         {
             Debug.Log("MainGameMainState.OnUpdate");
+
+            if (owner.IsClear)
+            {
+                owner.SetState<MainGameEndState>();
+            }
         }
     }
 }

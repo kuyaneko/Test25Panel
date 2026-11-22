@@ -8,6 +8,7 @@ public partial class MainGameSceneCtrl
         {
             Debug.Log("MainGameInitState.OnEnter");
 
+            owner.InitializePanels();
             owner.SetState<MainGameMainState>();
         }
 

@@ -7,11 +7,7 @@ public partial class MainGameSceneCtrl
         public override void OnEnter()
         {
             Debug.Log("MainGameEndState.OnEnter");
-        }
-
-        public override void OnUpdate()
-        {
-            Debug.Log("MainGameEndState.OnUpdate");
+            SceneCtrl.instance.LoadScene(SceneCtrl.Scene.RESULT);
         }
     }
 }
