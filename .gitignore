@@ -1,2 +1,6 @@
 除外テスト.txt
-25Panels/.Library
+/25Panels/.vs
+/25Panels/Library
+/25Panels/Logs
+/25Panels/Temp
+/25Panels/UserSettings
